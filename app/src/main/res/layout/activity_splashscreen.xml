@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".splashscreen">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="150dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/educonnectlogo" />
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:fontFamily="cursive"
+        android:text="@string/slogan"
+        android:textAlignment="center"
+        android:textColor="#3A0087"
+        android:textSize="23sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/engagewith"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/engage_with"
+        android:textAlignment="center"
+        android:textColor="#3A0087"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/dept_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/department_of_computer_application"
+        android:textAlignment="center"
+        android:textColor="#3A0087"
+
+        android:textStyle="bold"
+        android:textSize="19sp" />
+    <TextView
+        android:id="@+id/college_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:text="@string/kdk_college_of_engineering_n_nagpur"
+        android:textAlignment="center"
+        android:textColor="#3A0087"
+        android:textStyle="bold"
+        android:textSize="19sp" />
+
+    <ImageView
+        android:id="@+id/college_logo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/college_logo" />
+
+
+</LinearLayout>

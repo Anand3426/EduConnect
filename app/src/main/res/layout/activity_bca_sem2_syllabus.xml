@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BCA.BcaSyllabus.BcaSem2Syllabus">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/bca_sem2_toolbar_syllabus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        app:title="BCA Semester - 2"
+        app:titleTextColor="@color/black"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/syllabusbackground"
+                android:layout_margin="10dp"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/select_your_subject_nand_explore_your_n_syllabus"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="20sp"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_gravity="left"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/syllabuslogo"
+                    tools:ignore="RtlHardcoded"
+                    android:contentDescription="@string/todo" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:background="@drawable/border_layout"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="@string/choose_your_subject"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="20sp"/>
+
+                <LinearLayout
+                    android:id="@+id/bca_sem2_eng"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/border_layout">
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/symbol_layout_logo"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="@string/e"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/english"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:gravity="fill"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="sans-serif-black"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/bca_sem2_marathi"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border_layout">
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/symbol_layout_logo"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="@string/m"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/marathi"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:gravity="fill"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="sans-serif-black"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/bca_sem2_cplus"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border_layout">
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/symbol_layout_logo"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="@string/c"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/programming_in_c"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:gravity="fill"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="sans-serif-black"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/bca_sem2_sad"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border_layout">
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/symbol_layout_logo"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="@string/s"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/system_analysis_and_design"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:gravity="fill"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="sans-serif-black"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/bca_sem2_nm"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border_layout">
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/symbol_layout_logo"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="@string/n"
+                        android:textSize="14sp"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/numerical_methods"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:gravity="fill"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="sans-serif-black"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/bca_sem2_dm"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border_layout">
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/symbol_layout_logo"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="@string/d"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        tools:ignore="TextContrastCheck" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/discrete_mathematics_ii"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:gravity="fill"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="sans-serif-black"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/bca_sem2_loc"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border_layout">
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/symbol_layout_logo"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="@string/l"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        tools:ignore="TextContrastCheck" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="fill"
+                        android:text="@string/linux_operating_system"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/bca_sem2_ec"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border_layout">
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/symbol_layout_logo"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="@string/e"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        tools:ignore="TextContrastCheck" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/e_commerce"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:gravity="fill"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="sans-serif-black"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

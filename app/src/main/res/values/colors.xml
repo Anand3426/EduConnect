@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#9041FF</color>
+    <color name="light_blue">#8F9FFF</color>
+    <color name="red">#EF0606</color>
+    <color name="colorOfStatusBar">#9C55FF</color>
+    <color name="blue1">#3D5AFE</color>
+
+</resources>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".SideBarItem.HelpAndSupport">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_HelpAndSupport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Help and Support"
+        android:background="@color/blue"
+        app:titleMarginStart="10dp"/>
+    <RelativeLayout
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/corner_layout"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:contentDescription="@string/todo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/handp_modified">
+
+        </ImageView>
+        <TextView
+            android:layout_marginTop="170dp"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/need_support_nwe_are_here_to_help_nyou_with_all_of_it"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tell_us_how_can_we_help_you"
+                android:textSize="19sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginStart="15dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/our_crew_of_superheros_are_standing_for_your_service_and_support"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginStart="15dp"
+                />
+
+            <LinearLayout
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_layout"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/support1"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/for_technical_support"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="16sp"/>
+                    <TextView
+                        android:id="@+id/textLink1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/email"
+                        android:autoLink="email"
+                        android:layout_marginStart="10dp"
+                        android:textColor="#0000EE"
+                        android:layout_marginTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:textSize="14sp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_layout"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/support2"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/for_everything_else"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="16sp"/>
+                <TextView
+                    android:id="@+id/textLink2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/email"
+                    android:autoLink="email"
+                    android:layout_marginStart="10dp"
+                    android:textColor="#0000EE"
+                    android:layout_marginTop="5dp"
+                    android:paddingBottom="10dp"
+                    android:textSize="14sp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BCA.BcaQPaper.BcaSem4QPaper">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/bca_sem4_toolbar_qpaper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        app:title="BCA Semester - 4"
+        app:titleTextColor="@color/black"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/qpaperbackground"
+                android:layout_margin="10dp"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/select_your_subject_nand_explore_your_n_question_paper"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="20sp"/>
+                <ImageView
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/exam"
+                    android:contentDescription="@string/todo" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:background="@drawable/border_layout"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="@string/choose_your_subject"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="20sp"/>
+
+
+                <LinearLayout
+                    android:id="@+id/bca_sem4_se_qpaper"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:onClick="BottomOnClickBcaSem4"
+                    android:background="@drawable/border_layout">
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/symbol_layout_logo"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="@string/s"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/software_engineering_i"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:gravity="fill"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="sans-serif-black"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/bca_sem4_sql_qpaper"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:onClick="BottomOnClickBcaSem4"
+                    android:background="@drawable/border_layout">
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/symbol_layout_logo"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="@string/s"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/sql_and_pl_sql"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:gravity="fill"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="sans-serif-black"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/bca_sem4_toc_qpaper"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:onClick="BottomOnClickBcaSem4"
+                    android:background="@drawable/border_layout">
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/symbol_layout_logo"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="@string/t"
+                        android:textSize="14sp"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/theory_of_computation"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:gravity="fill"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="sans-serif-black"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/bca_sem4_or_qpaper"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:onClick="BottomOnClickBcaSem4"
+                    android:background="@drawable/border_layout">
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/symbol_layout_logo"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="@string/o"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        tools:ignore="TextContrastCheck" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/operations_research_ii"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:gravity="fill"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="sans-serif-black"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/bca_sem4_wt_qpaper"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:onClick="BottomOnClickBcaSem4"
+                    android:background="@drawable/border_layout">
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/symbol_layout_logo"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="@string/w"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        tools:ignore="TextContrastCheck" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="fill"
+                        android:text="@string/web_technology_ii"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/bca_sem4_de_qpaper"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:onClick="BottomOnClickBcaSem4"
+                    android:background="@drawable/border_layout">
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/symbol_layout_logo"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="@string/d"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        tools:ignore="TextContrastCheck" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/digital_electronics_ii"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:gravity="fill"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="sans-serif-black"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

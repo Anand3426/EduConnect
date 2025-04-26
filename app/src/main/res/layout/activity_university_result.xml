@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UniversityResult"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/university_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="University Result"
+        android:background="@color/blue"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/resultbackground">
+            <TextView
+               android:layout_marginStart="25dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20sp"
+                android:text="@string/find_your_result_nand_show_your_nperformance"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="20dp"
+                android:contentDescription="@string/examlogo"
+                android:src="@drawable/result"
+                tools:ignore="ImageContrastCheck" />
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/border_layout"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/choose_your_university"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_margin="10dp"/>
+            <LinearLayout
+                android:id="@+id/rtmnuresult"
+                android:background="@drawable/rtmnu_background"
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_margin="15dp"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/rtmnulogo"
+                    android:importantForAccessibility="no" />
+                <TextView
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/rtm_nagpur_university"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="@color/black"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/gondwanaresult"
+                android:background="@drawable/godwana_background"
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_margin="15dp"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:importantForAccessibility="no"
+                    android:src="@drawable/gondwanalogo"
+                    tools:ignore="ImageContrastCheck" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:text="@string/gondwana_university_gadchiroli"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="@color/black"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

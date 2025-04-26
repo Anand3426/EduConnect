@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragmentHome">
+    <TextView
+        android:id="@+id/academics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/explore_academics"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:id="@+id/home_syllabus_show"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/syllabusbackground"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end">
+
+
+                    <ImageView
+                        android:id="@+id/homesyllabuslogo"
+                        android:layout_width="50dp"
+                        android:layout_height="55dp"
+                        android:layout_margin="5dp"
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/homesyllabus"
+                        tools:ignore="TooDeepLayout" />
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="@string/couse_syllabus"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="@string/all_your_couse_syllabus_and_n_guide_at_your_fingertips"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/home_quePaper_show"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/qpaperbackground"
+                android:baselineAligned="false"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end">
+
+
+                    <ImageView
+                        android:id="@+id/homequelogo"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="5dp"
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/homequestion"
+                        tools:ignore="ImageContrastCheck" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="@string/question_papers"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="@string/find_previous_year_question_n_paper_at_your_fingertips"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:id="@+id/home_notes_show"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/notesbakground"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    tools:ignore="RtlHardcoded">
+
+
+                    <ImageView
+                        android:id="@+id/homenoteslogo"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="5dp"
+                        android:importantForAccessibility="no"
+                        android:src="@drawable/homenotes"
+                        tools:ignore="ImageContrastCheck" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="@string/notes_materials"
+                    android:textColor="#5D4037"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="TextContrastCheck" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="@string/access_the_study_materials_n_to_improve_your_learning"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/home_result_show"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/resultbackground"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end">
+
+
+                    <ImageView
+                        android:id="@+id/homeresultlogo"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="5dp"
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/homeresult"
+                        tools:ignore="ImageContrastCheck" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="@string/university_result"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="@string/find_your_exam_result_and_show_your_improvement"
+                    android:textSize="13sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

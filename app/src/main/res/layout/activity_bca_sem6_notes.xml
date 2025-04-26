@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/bca_sem6_toolbar_notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        app:title="BCA Semester - 6"
+        app:titleTextColor="@color/black"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/notesbakground"
+                android:layout_margin="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/select_your_subject_nand_explore_your_n_syllabus"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_margin="10dp"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/notes"
+                    tools:ignore="ImageContrastCheck" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:background="@drawable/border_layout"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="@string/choose_your_subject"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="20sp"/>
+                <LinearLayout
+                    android:id="@+id/bca_sem6_cg_notes"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border_layout">
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/symbol_layout_logo"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="@string/c"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/computer_graphics_ii"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:gravity="fill"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="sans-serif-black"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/bca_sem6_java_notes"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border_layout">
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/symbol_layout_logo"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="@string/j"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/programming_in_java"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:gravity="fill"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="sans-serif-black"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/bca_sem6_asp_notes"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border_layout">
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/symbol_layout_logo"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="@string/a"
+                        android:textSize="14sp"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/asp_net"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:gravity="fill"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="sans-serif-black"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/bca_sem6_st_notes"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border_layout">
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/symbol_layout_logo"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="@string/s"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        tools:ignore="TextContrastCheck" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/software_testing"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:gravity="fill"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="sans-serif-black"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/bca_sem6_php_notes"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border_layout">
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/symbol_layout_logo"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="@string/p"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        tools:ignore="TextContrastCheck" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/php_ii"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:gravity="fill"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="sans-serif-black"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/bca_sem6_dcn_notes"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border_layout">
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/symbol_layout_logo"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="@string/d"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        tools:ignore="TextContrastCheck" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="fill"
+                        android:text="@string/data_communication_and_network_ii"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

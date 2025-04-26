@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"
+        tools:ignore="ScopedStorage" />
+
+    <compatible-screens>
+
+        <!-- all small size screens -->
+        <screen
+            android:screenDensity="ldpi"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="mdpi"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="hdpi"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="xhdpi"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="xxhdpi"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="xxxhdpi"
+            android:screenSize="small" />
+        <!-- all normal size screens -->
+        <screen
+            android:screenDensity="ldpi"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="mdpi"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="hdpi"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="xhdpi"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="xxhdpi"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="xxxhdpi"
+            android:screenSize="normal" />
+    </compatible-screens>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EduConnect"
+        tools:targetApi="31">
+        <activity
+            android:name=".User.SignUpCourseDetails"
+            android:exported="false" />
+        <activity
+            android:name=".CollegeInfo.AboutDeveloper"
+            android:exported="false" />
+        <activity
+            android:name=".CollegeInfo.AboutDepartment"
+            android:exported="false" />
+        <activity
+            android:name=".CollegeInfo.AboutFaculty"
+            android:exported="false" />
+        <activity
+            android:name=".User.BottomSheetLogOutAccount"
+            android:exported="false" />
+        <activity
+            android:name=".User.bottomsheetMobileOtp"
+            android:exported="false" />
+        <activity
+            android:name=".User.SignUpAcademicsDetails"
+            android:exported="false" />
+        <activity
+            android:name=".User.UserMobileNumber"
+            android:exported="false" />
+        <activity
+            android:name=".User.UserSignUp"
+            android:exported="false" />
+        <activity
+            android:name=".SideBarItem.HelpAndSupport"
+            android:exported="false" />
+        <activity
+            android:name=".SideBarItem.AboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".User.EditUserAcademics"
+            android:exported="false" />
+        <activity
+            android:name=".User.EditUserInfo"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".User.UserMyProfile"
+            android:exported="false" />
+        <activity
+            android:name=".BCA.BcaNotes.BcaSem6Notes"
+            android:exported="false" />
+        <activity
+            android:name=".BCA.BcaNotes.BcaSem5Notes"
+            android:exported="false" />
+        <activity
+            android:name=".BCA.BcaNotes.BcaSem4Notes"
+            android:exported="false" />
+        <activity
+            android:name=".BCA.BcaNotes.BcaSem3Notes"
+            android:exported="false" />
+        <activity
+            android:name=".BCA.BcaNotes.BcaSem2Notes"
+            android:exported="false" />
+        <activity
+            android:name=".BCA.BcaNotes.BcaSem1Notes"
+            android:exported="false" />
+        <activity
+            android:name=".BCA.BcaNotes.BcaNotes"
+            android:exported="false" />
+        <activity
+            android:name=".MCA.McaNotes.McaSem3Notes"
+            android:exported="false" />
+        <activity
+            android:name=".MCA.McaNotes.McaSem2Notes"
+            android:exported="false" />
+        <activity
+            android:name=".BCA.BcaQPaper.BcaSem6QPaper"
+            android:exported="false" />
+        <activity
+            android:name=".BCA.BcaQPaper.BcaSem5QPaper"
+            android:exported="false" />
+        <activity
+            android:name=".BCA.BcaQPaper.BcaSem4QPaper"
+            android:exported="false" />
+        <activity
+            android:name=".BCA.BcaQPaper.BcaSem3QPaper"
+            android:exported="false" />
+        <activity
+            android:name=".MCA.McaQPaper.McaSem3QPaper"
+            android:exported="false" />
+        <activity
+            android:name=".MCA.McaQPaper.McaSem2QPaper"
+            android:exported="false" />
+        <activity
+            android:name=".MCA.McaQPaper.McaSem1QPaper"
+            android:exported="false" />
+        <activity
+            android:name=".BCA.BcaQPaper.BcaSem2QPaper"
+            android:exported="false" />
+        <activity
+            android:name=".BCA.BcaQPaper.BcaSem1QPaper"
+            android:exported="false" />
+        <activity
+            android:name=".MCA.McaQPaper.McaQPaper"
+            android:exported="false" />
+        <activity
+            android:name=".BCA.BcaQPaper.BcaQPaper"
+            android:exported="false" />
+        <activity
+            android:name=".MCA.McaNotes.McaSem1Notes"
+            android:exported="false" />
+        <activity
+            android:name=".MCA.McaNotes.McaNotes"
+            android:exported="false" />
+        <activity
+            android:name=".BCA.BcaSyllabus.BcaSemFullSyllabus"
+            android:exported="false" />
+        <activity
+            android:name=".BCA.BcaSyllabus.BcaSem6Syllabus"
+            android:exported="false" />
+        <activity
+            android:name=".BCA.BcaSyllabus.BcaSem5Syllabus"
+            android:exported="false" />
+        <activity
+            android:name=".BCA.BcaSyllabus.BcaSem4Syllabus"
+            android:exported="false" />
+        <activity
+            android:name=".BCA.BcaSyllabus.BcaSem3Syllabus"
+            android:exported="false" />
+        <activity
+            android:name=".BCA.BcaSyllabus.BcaSem2Syllabus"
+            android:exported="false" />
+        <activity
+            android:name=".BCA.BcaSyllabus.BcaSem1Syllabus"
+            android:exported="false"
+            android:label="@string/title_activity_bca_sem1_syllabus"
+            android:theme="@style/Theme.EduConnect" />
+        <activity
+            android:name=".BCA.BcaSyllabus.BcaSyllabus"
+            android:exported="false" />
+        <activity
+            android:name=".MCA.McaSyllbus.McaSem4Syllabus"
+            android:exported="false" />
+        <activity
+            android:name=".MCA.McaSyllbus.McaSem3Syllabus"
+            android:exported="false" />
+        <activity
+            android:name=".MCA.McaSyllbus.McaSem2Syllabus"
+            android:exported="false" />
+        <activity
+            android:name=".MCA.McaSyllbus.McaSem1Syllabus"
+            android:exported="false" />
+        <activity
+            android:name=".MCA.McaSyllbus.McaSyllabus"
+            android:exported="false" />
+        <activity
+            android:name=".UniversityResult"
+            android:exported="false" />
+        <activity
+            android:name=".NotesMaterials"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionPaper"
+            android:exported="false" />
+        <activity
+            android:name=".CourseSyllabus"
+            android:exported="false" />
+        <activity
+            android:name=".splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
+    </application>
+
+</manifest>

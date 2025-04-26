@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CollegeInfo.AboutDepartment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/about_dept_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        app:title="About Department"
+        app:titleTextColor="@color/black"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <ImageView
+        android:id="@+id/about_dept_photo"
+        android:layout_width="match_parent"
+
+        android:layout_height="200dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/todo" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/department_of_computer_application"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_dept_text"
+        android:layout_margin="15dp"
+
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:justificationMode="inter_word"
+        tools:ignore="VisualLintLongText"
+        tools:targetApi="o" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/career_prospects"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:textColor="@color/black"
+        android:text="@string/cp1"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="8dp"
+        android:text="@string/cp2"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        tools:ignore="VisualLintLongText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/black"
+        android:text="@string/cp3"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/black"
+        android:text="@string/cp4"
+        android:textSize="16sp"
+        tools:ignore="VisualLintLongText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:text="@string/cp5"
+        android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

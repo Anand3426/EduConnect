@@ -1,0 +1,307 @@
+<resources>
+    <string name="app_name">EduConnect</string>
+    <string name="todo">TODO</string>
+    <string name="slogan">Access Your Learning Materials \n Anytime , Anywhere.</string>
+    <string name="this_is_the_home_page">This is the Home Page</string>
+    <string name="explore_academics">Explore Academics</string>
+    <string name="couse_syllabus">Course Syllabus</string>
+    <string name="all_your_couse_syllabus_and_n_guide_at_your_fingertips">All Your course syllabus and guide at your fingertips</string>
+    <string name="question_papers">Question Papers</string>
+    <string name="find_previous_year_question_n_paper_at_your_fingertips">Find previous year question paper at your fingertips</string>
+    <string name="notes_materials">Notes Materials</string>
+    <string name="access_the_study_materials_n_to_improve_your_learning">Access the Study Materials to improve your learning</string>
+    <string name="university_result">Exam Result</string>
+    <string name="find_all_courses_nand_subject_syllabus_nand_marking_scheme">Find all Courses and \nSubject Syllabus \nand marking \nscheme</string>
+    <string name="b_e_bachelor_of_engineering">B.E(Bachelor of Engineering)</string>
+    <string name="b_tech_bachelor_of_technology">B.Tech(Bachelor of Technology)</string>
+    <string name="m_tech_master_of_technology">M.Tech(Master of Technology)</string>
+    <string name="b_a_bachelor_of_art">B.A(Bachelor of Art)</string>
+    <string name="m_a_master_of_art">M.A(Master of Art)</string>
+    <string name="bcca_bachelor_of_commerce_computer_application">BCCA(Bachelor of Commerce Computer Application)</string>
+    <string name="b_com_bachelor_of_commerce">B.Com(Bachelor of Commerce)</string>
+    <string name="choose_your_course_or_field">Choose Your Course Or Field</string>
+    <string name="bca_bachelor_of_computer_application">BCA(Bachelor of Computer Application)</string>
+    <string name="mca_master_of_computer_application">MCA(Master of Computer Application)</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="e">E</string>
+    <string name="f">F</string>
+    <string name="g">G</string>
+    <string name="h">H</string>
+    <string name="i">I</string>
+    <string name="j">J</string>
+    <string name="k">K</string>
+    <string name="l">L</string>
+    <string name="m">M</string>
+    <string name="n">N</string>
+    <string name="o">O</string>
+    <string name="p">P</string>
+    <string name="q">Q</string>
+    <string name="r">R</string>
+    <string name="s">S</string>
+    <string name="t">T</string>
+    <string name="u">U</string>
+    <string name="v">V</string>
+    <string name="w">W</string>
+    <string name="x">X</string>
+    <string name="y">Y</string>
+    <string name="z">Z</string>
+    <string name="sem1">Semester 1</string>
+    <string name="sem2">Semester 2</string>
+    <string name="sem3">Semester 3</string>
+    <string name="sem4">Semester 4</string>
+    <string name="sem5">Semester 5</string>
+    <string name="sem6">Semester 6</string>
+    <string name="find_the_semester_nand_explore_your_n_mca_syllabus">Find the Semester\nand explore your\n MCA syllabus</string>
+    <string name="choose_your_semester">Choose your Semester</string>
+    <string name="semester_1">Semester 1</string>
+    <string name="full_syllabus">Full Syllabus</string>
+    <string name="dcn">Data Communication And Network</string>
+    <string name="select_your_subject_nand_explore_your_n_syllabus">Select your Subject\nand Explore your\n Syllabus</string>
+    <string name="choose_your_subject">Choose your Subject</string>
+    <string name="java">Advance Programming In Java</string>
+    <string name="open_source_web_programming_using_php">Open Source Web Programming Using PHP</string>
+    <string name="advance_dbms_administration">Advance DBMS Administration</string>
+    <string name="software_engineering">Software Engineering</string>
+    <string name="c_and_asp_net">C# And ASP.NET</string>
+    <string name="cloud_computing">Cloud Computing</string>
+    <string name="computer_graphics">Computer Graphics</string>
+    <string name="computer_architecture_and_organization">Computer Architecture And Organization</string>
+    <string name="operation_research">Operation Research</string>
+    <string name="cyber_forensics">Cyber Forensics</string>
+    <string name="android_programming">Android Programming</string>
+    <string name="big_data_analytics">Big Data Analytics</string>
+    <string name="data_mining">Data Mining</string>
+    <string name="python_programming">Python Programming</string>
+    <string name="artificial_intelligence">Artificial Intelligence</string>
+    <string name="mobile_computing">Mobile Computing</string>
+    <string name="soft_computing">Soft Computing</string>
+    <string name="proejct_work">Proejct Work</string>
+    <string name="machine_learning">Machine Learning</string>
+    <string name="find_the_semester_nand_explore_your_n_bca_syllabus">Find the Semester \nand Explore your\n BCA Syllabus</string>
+    <string name="semester5">Semester 5</string>
+    <string name="find_the_semester_nand_explore_your_nmca_syllabus">Find the Semester\nand Explore your \nBCA Syllabus</string>
+    <string name="title_activity_bca_sem1_syllabus">BcaSem1Syllabus</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="english">English</string>
+    <string name="marathi">Marathi/Hindi/Urdu/Gujarati/Sanskrit / Suppl.English</string>
+    <string name="computer_fundamentals">Computer Fundamentals</string>
+    <string name="statistical_methods">Statistical Methods</string>
+    <string name="discrete_mathematics_i">Discrete Mathematics – I</string>
+    <string name="operating_systems">Operating Systems</string>
+    <string name="office_automation">Office Automation</string>
+    <string name="c_programming">C Programming</string>
+    <string name="programming_in_c">Programming In ‘C++’</string>
+    <string name="system_analysis_and_design">System Analysis And Design</string>
+    <string name="numerical_methods">Numerical Methods</string>
+    <string name="discrete_mathematics_ii">Discrete Mathematics – II</string>
+    <string name="linux_operating_system">Linux Operating System</string>
+    <string name="e_commerce">E Commerce</string>
+    <string name="computer_graphics_i">Computer Graphics - I</string>
+    <string name="compiler_construction">Compiler Construction</string>
+    <string name="vb_net">VB.Net</string>
+    <string name="software_engineering_ii">Software Engineering - II</string>
+    <string name="php_i">PHP - I</string>
+    <string name="data_communication_and_network_i">Data Communication And Network - I</string>
+    <string name="computer_graphics_ii">Computer Graphics - II</string>
+    <string name="programming_in_java">Programming In Java</string>
+    <string name="asp_net">ASP.Net</string>
+    <string name="software_testing">Software Testing</string>
+    <string name="php_ii">PHP - II</string>
+    <string name="data_communication_and_network_ii">Data Communication And Network - II</string>
+    <string name="examlogo">ExamLogo</string>
+    <string name="find_your_result_nand_show_your_nperformance">Find Your Result\nand Show your \nPerformance</string>
+    <string name="rtm_nagpur_university">RTM Nagpur University</string>
+    <string name="gondwana_university_gadchiroli">Gondwana University Gadchiroli</string>
+    <string name="choose_your_university">Choose your University</string>
+    <string name="software_engineering_i">Software Engineering-I</string>
+    <string name="sql_and_pl_sql">Sql And Pl/Sql</string>
+    <string name="theory_of_computation">Theory Of Computation</string>
+    <string name="operations_research_ii">Operations Research - II</string>
+    <string name="web_technology_ii">Web Technology - II</string>
+    <string name="digital_electronics_ii">Digital Electronics – II</string>
+    <string name="visual_basic_programming">Visual Basic Programming</string>
+    <string name="data_base_management_system">Data Base Management System</string>
+    <string name="data_structures">Data Structures</string>
+    <string name="operations_research_i">Operations Research – I</string>
+    <string name="web_technology_i">Web Technology - I</string>
+    <string name="digital_electronics_i">Digital Electronics – I</string>
+    <string name="find_the_semester_nand_explore_your_nmca_syllabus_nnotes">Find the Subject\nand Explore your \nMCA Syllabus\nNotes</string>
+    <string name="unit1">Unit-1</string>
+    <string name="unit2">Unit-2</string>
+    <string name="unit3">Unit-3</string>
+    <string name="unit4">Unit-4</string>
+    <string name="data_communication_and_network">Data Communication and Network</string>
+    <string name="find_the_semester_nand_explore_your_nbca_question_npaper">Find the Semester\nand Explore your\nBCA Question \nPaper</string>
+    <string name="select_your_subject_nand_explore_your_n_question_paper">Select your Subject\nand Explore your\n Question Paper</string>
+    <string name="find_the_semester_nand_explore_your_nexam_question_npaper">Find the Subject\nand Explore your \nExam Question \nPaper</string>
+    <string name="find_all_courses_nquestion_papers_nand_marking_nscheme">Find all courses\nquestion papers\nand marking\nscheme</string>
+    <string name="find_your_semester_nand_explore_your_nmca_syllabus_nnotes">Find your Semester\nand Explore your\nMCA Syllabus\nNotes</string>
+    <string name="find_your_semester_nand_explore_your_nbca_syllabus_n_notes">Find your Semester\nand Explore your\nBCA Syllabus\n Notes</string>
+    <string name="winter2023">Winter-2023</string>
+    <string name="summer2023">Summer-2023</string>
+    <string name="winter2022">Winter-2022</string>
+    <string name="summer2022">Summer-2022</string>
+    <string name="winter2019">Winter-2019</string>
+    <string name="summer2019">Summer-2019</string>
+    <string name="winter2018">Winter-2018</string>
+    <string name="summer2018">Summer-2018</string>
+    <string name="marathiaa">Marathi</string>
+    <string name="home">Home</string>
+    <string name="academics">Academics</string>
+    <string name="acamedics_resources">Acamedics Resources</string>
+    <string name="rtmnu_exam_time_table">RTMNU Exam Time Table</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="help_and_support">Help and Support</string>
+    <string name="about_us">About Us</string>
+    <string name="share_app">Share App</string>
+    <string name="rate_app">Rate App</string>
+    <string name="feeback">Feeback</string>
+    <string name="open_drawer">Open the Drawer</string>
+    <string name="close_drawer">Close the Drawer</string>
+    <string name="mission">
+        \u00A0\u00A0\u00A0\u00A0 EduConnect mission to simplify higher education by providing student with a one-stop platform for educational information
+        and through Career Connect.EduConnect helps students achieve their career goals and become industry ready.
+        \n\n\u00A0\u00A0\u00A0\u00A0To democratize education by providing a centralized platform for students, educators, and institutions to
+        access and share high-quality academic resources, including notes, syllabus, and question papers. We strive to empower
+        learners by fostering a collaborative learning environment that promotes academic excellence and improves educational
+        outcomes for all.
+    </string>
+    <string name="vision">
+       \u00A0\u00A0\u00A0\u00A0 To make education accessible and impactful for all students, bridging the gap between education and
+        industry.Thus empower student to reach their full potential with informed career choices.
+    </string>
+    <string name="mission1">Mission</string>
+    <string name="vision1">Vision</string>
+    <string name="need_support_nwe_are_here_to_help_nyou_with_all_of_it">Need Support?\nWe are here to help\nyou with all of it.</string>
+    <string name="email">educonnecteducation06@gmail.com</string>
+    <string name="for_everything_else">For Everything Else</string>
+    <string name="tell_us_how_can_we_help_you">Tell us how can we help you</string>
+    <string name="our_crew_of_superheros_are_standing_for_your_service_and_support">Our crew of superheros are standing for your service and support.</string>
+    <string name="for_technical_support">For Technical Support</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="welcome_to_educonnect">Welcome to EduConnect</string>
+    <string name="educonnect_acts_a_bridging_platform_between_student_and_education">EduConnect acts a bridging platform between Student and Education.</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="t_amp_c_and_privacy_and_policy"><u><![CDATA[T&C and Privacy and Policy.]]></u></string>
+    <string name="by_continuing_you_agree_that_you_have_read_and_accept_our">by continuing ,you agree that you have read and accept our</string>
+    <string name="kindly_use_the_contact_number_that_you_used_during_admission">kindly use the contact number that you used during admission</string>
+    <string name="enter_your_mobile_number_here">Enter your Mobile Number here</string>
+    <string name="just_a_one_step_ahead_to_complete_your_verification">Just a one step ahead to complete your verification</string>
+    <string name="verify_mobile_number">Verify Mobile Number</string>
+    <string name="note_kindly_use_the_contact_number_that_you_used_during_admission">Note: Kindly use the contact number that you used during admission</string>
+    <string name="get_otp">GET OTP</string>
+    <string name="acamemics_details">Acamemics Details</string>
+    <string name="date_of_birth">Date of Birth*</string>
+    <string name="last_name">Last Name*</string>
+    <string name="first_name">First Name*</string>
+    <string name="default_web_client_id" translatable="false">90003185567-f8nk4ovutvh6d4ti6n1obd1iugur6t0f.apps.googleusercontent.com</string>
+    <string name="enter_your_last_name_here">Enter Your Last Name Here</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="we_have_sent_a_verification_code_to">We have sent a verification code to</string>
+    <string name="mobile">mobile</string>
+    <string name="didn_t_receive_the_code">Didn\'t receive the code?</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="verify">VERIFY</string>
+    <string name="timer">timer</string>
+    <string name="my_account">My Account</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="gender">Gender *</string>
+    <string name="dob">Date of Birth*</string>
+    <string name="save_info_and_next">Save Info and Next</string>
+    <string name="e_mail_id">E-mail ID</string>
+    <string name="enter_your_first_name_here">Enter Your First Name Here*</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="save_info">Save Info</string>
+    <string name="my_profile">My Profile</string>
+    <string name="log_out">Log Out</string>
+    <string name="cancel">Cancel</string>
+    <string name="logout">Logout</string>
+    <string name="are_you_sure_you_want_to_logout">Are you sure want to logout?</string>
+    <string name="find_your_exam_result_and_show_your_improvement">Find your Exam Result and Show your improvement</string>
+    <string name="about_department">About Department</string>
+    <string name="about_faculty">Faculty Details</string>
+    <string name="about_developer">Developer Info</string>
+    <string name="kdk_college_of_engineering_n_nagpur">KDK College of Engineering\n Nagpur</string>
+    <string name="department_of_computer_application">Department of Computer Application</string>
+    <string name="engage_with">engage with</string>
+    <string name="about_dept_text">Department of Computer Applications is a Professional degree in Computer Science. It focuses on providing a theoretical as well
+        as practical training to students in the related field.” \n\n<b>Welcome to ComputerApplicationDepartment of K.D.K College of Engineering for U.G and P.G Courses.</b> \n\n
+        We are enthusiastic to guaranteeing abundant careers for our students. There are numerous methods to present the recognized core of computer science which includes
+        building deeper industry relations than before.. Developments of knowledge changes rapidly over the years have developed to bridge the gap between theories – practice.
+        Education is a constant process and does not end with the gaining of a degree. We guarantee that our scholars are given a solid substance in computer science with problem-solving
+        methods, and are made flexible to changes. We welcome you to the Computer Applications Department as post graduate student and we hope to be part of your success</string>
+    <string name="career_prospects">Career Prospects</string>
+    <string name="cp1">● The course offers diversity of course specializations due to which multitude of job profiles are created.</string>
+    <string name="cp2">● The course has a wide acceptance and offers excellent career opportunities in various industries including software development companies in the areas of System analysis/design/developments/supports ,mobile application programming,game programming, web and e- commerce development, database administration, software testing, education and training etc.</string>
+    <string name="cp3">● Multinational corporations and many software companies in India hire candidates with UG and PG degree.</string>
+    <string name="cp4">● Graduates can also avail the prospect of going abroad for off-shore development in the top IT companies across the world. Many government organizations also hire them.</string>
+    <string name="cp5">● The employability and career growth prospects for an graduate are extremely high.</string>
+    <string name="mCA">Master of Computer Application</string>
+    <string name="hod_name">Dr. Anup Bhange</string>
+    <string name="hod_department_of_computer_application">HOD (Department of Computer Application)</string>
+    <string name="mcaT1">Prof. Minal Solanki</string>
+    <string name="faculty_incharge">Faculty Incharge</string>
+    <string name="bca">Bachelor of Computer Application</string>
+    <string name="bcaT1">Prof. Smita Kshirsagar</string>
+    <string name="bcaT2">Prof. Apurva Tiwari</string>
+    <string name="bcaT3">Prof. Vaishali Shahu</string>
+    <string name="bcaT4">Prof. Kunal Chimurkar</string>
+    <string name="bcaT5">Prof. Swati Chaudhari</string>
+    <string name="assistant_professor">Assistant Professor</string>
+    <string name="mcaT2">Prof.Arti Virutkar</string>
+    <string name="forum_incharge">Forum Incharge</string>
+    <string name="mcaT3">Prof. Darshan Khirekar</string>
+    <string name="mcaT4">Prof. Sneha Deshmukh</string>
+    <string name="mcaT5">Prof. Ashwini Wakodikar</string>
+    <string name="academics_details">Academics Details</string>
+    <string name="save_academics_details">Save Academics Details</string>
+    <string name="course">Course</string>
+    <string name="college">College</string>
+    <string name="course_level">Course Level</string>
+    <string name="stream_specialization">Stream/Specialization</string>
+    <string name="pursing_year">Pursing Year</string>
+
+    <string-array name="college_name">
+        <item>Choose Your College</item>
+        <item>KDK College of Engineering</item>
+    </string-array>
+    <string-array name="course_type">
+        <item>Choose your Course</item>
+        <item>Science and Technology</item>
+    </string-array>
+    <string-array name="course_field">
+        <item>Choose your Field</item>
+        <item>BCA(Bachelor of Computer Application)</item>
+        <item>MCA(Master of Computer Application)</item>
+    </string-array>
+    <string-array name="course_stream">
+        <item>Choose your Stream Specialization</item>
+        <item>Computer Application</item>
+    </string-array>
+    <string-array name="mca_course_year">
+        <item>Choose your MCA Course Year</item>
+        <item>Year - 1</item>
+        <item>Year - 2</item>
+    </string-array>
+    <string-array name="bca_course_year">
+        <item>Choose your BCA Course Year</item>
+        <item>Year - 1</item>
+        <item>Year - 2</item>
+        <item>Year - 3</item>
+    </string-array>
+    <string-array name="default_select_year">
+        <item>Choose your Course Year</item>
+    </string-array>
+
+
+</resources>

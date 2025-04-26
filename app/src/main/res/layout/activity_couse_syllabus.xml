@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".CourseSyllabus">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/syllabus_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        app:title="Course Syllabus"
+        app:titleTextColor="@color/black"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/syllabusbackground"
+            android:layout_margin="10dp"
+            tools:ignore="UselessParent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/find_all_courses_nand_subject_syllabus_nand_marking_scheme"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20sp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_gravity="left"
+                android:layout_margin="10dp"
+                android:src="@drawable/syllabuslogo"
+                tools:ignore="RtlHardcoded"
+                android:contentDescription="@string/todo" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:background="@drawable/border_layout"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="@string/choose_your_course_or_field"
+
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck" />
+
+            <LinearLayout
+                android:id="@+id/bca_syllabus"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/border_layout">
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/symbol_layout_logo"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="@string/b"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/bca_bachelor_of_computer_application"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="fill"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="14sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mca"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_layout">
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/symbol_layout_logo"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="@string/m"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/mca_master_of_computer_application"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="fill"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="14sp"/>
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>
